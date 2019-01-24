@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/harryray/Sites/harry-ray/portfolio-main/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/harryray/Sites/harry-ray/portfolio-main/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "c67a093d90b5da4304ca9ff5a97a1a69",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -1033,14 +1042,16 @@
         "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
         "author": "@gatsbyjs"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-24T15:32:09.054Z",
+      "buildTime": "2019-01-24T16:07:30.958Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d805b2cb6c8a3789558b3890274d2161",
+        "contentDigest": "5b4f597eb2ee601adf60ded4757f546f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1050,7 +1061,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f3cd5e4fa6af601381e2452564b5cf68",
+        "contentDigest": "1a91f7cc267e40f14dd4344f067e8a3b",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1062,7 +1073,7 @@
       "size": 136,
       "prettySize": "136 B",
       "modifiedTime": "2019-01-24T14:55:07.000Z",
-      "accessTime": "2019-01-24T15:32:13.000Z",
+      "accessTime": "2019-01-24T16:07:33.000Z",
       "changeTime": "2019-01-24T14:55:07.000Z",
       "birthTime": "2019-01-24T14:55:07.000Z",
       "root": "/",
@@ -1080,11 +1091,11 @@
       "blksize": 4096,
       "ino": 5973332,
       "blocks": 0,
-      "atimeMs": 1548343933000,
+      "atimeMs": 1548346053000,
       "mtimeMs": 1548341707000,
       "ctimeMs": 1548341707000,
       "birthtimeMs": 1548341707000,
-      "atime": "2019-01-24T15:32:13.000Z",
+      "atime": "2019-01-24T16:07:33.000Z",
       "mtime": "2019-01-24T14:55:07.000Z",
       "ctime": "2019-01-24T14:55:07.000Z",
       "birthtime": "2019-01-24T14:55:07.000Z"
@@ -1291,8 +1302,8 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-layout-js",
-        "sq--src-components-seo-js"
+        "sq--src-components-seo-js",
+        "sq--src-components-layout-js"
       ],
       "f49b1ab3-a3c3-55a6-ad70-0fd58bd9fe47": [
         "sq--src-components-image-js"
@@ -1325,6 +1336,10 @@
     "/Users/harryray/Sites/harry-ray/portfolio-main/src/pages/page-2.js": {
       "query": "",
       "componentPath": "/Users/harryray/Sites/harry-ray/portfolio-main/src/pages/page-2.js"
+    },
+    "/Users/harryray/Sites/harry-ray/portfolio-main/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/harryray/Sites/harry-ray/portfolio-main/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {

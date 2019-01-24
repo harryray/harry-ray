@@ -2,20 +2,44 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
 import SEO from '../components/seo'
+
+import './min/index.min.css'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="home-splash">
+      <div>
+        <h1>Harry Ray</h1>
+        <h2>Digital</h2>
+      </div>
+      <div>
+        <h2 className="loopVisibility visible">Doing</h2>
+        <h2 className="loopVisibility">Daring</h2>
+        <h2 className="loopVisibility">Development</h2>
+      </div>
     </div>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
+
+function headingSwitchout() {
+  var e = document.querySelectorAll(".loopVisibility"),
+      c = e.length,
+      i = 0
+  setInterval(function(){
+    if(i === c) {
+      i = 0
+      e[c - 1].classList.remove('visible')
+    }
+    e[i - 1] && e[i - 1].classList.remove('visible')
+    e[i] && e[i].classList.add('visible')
+    i++
+  }, 1000)
+}
+setTimeout(function() {
+  headingSwitchout()
+}, 500)
 
 export default IndexPage

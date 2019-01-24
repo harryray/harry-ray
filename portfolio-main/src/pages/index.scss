@@ -1,0 +1,55 @@
+@import "../mixins/colours.scss";
+
+.home-splash {
+  position:relative;
+  height:75vh;
+  width:100vw;
+
+  div {
+    position:absolute;
+    top:0;
+    width:50vw;
+    height:100%;
+
+    &:nth-of-type(1) {
+      left:0;
+
+      h2 {
+        right:30px;
+      }
+    }
+    &:nth-of-type(2) {
+      right:0;
+      background-color:$green;
+      color:$white;
+
+      h2 {
+        left:30px;
+        visibility: hidden;
+
+        &.visible {
+          visibility: visible;
+        }
+      }
+    }
+  }
+
+  h1 {
+    position:absolute;
+    color: #333333;
+    opacity:0.15;
+    top:50%;
+    font-size:0.9em;
+    transform:translateY(-75px);
+    right:281px;
+  }
+
+  h2 {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    font-weight:bold;
+    font-size:6.66em;
+    margin:0;
+  }
+}
