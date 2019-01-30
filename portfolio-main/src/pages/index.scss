@@ -14,14 +14,14 @@
     &:nth-of-type(1) {
       left:0;
 
-      h2 {
+      .h2 {
         right:30px;
       }
     }
     &:nth-of-type(2) {
       right:0;
 
-      h2 {
+      .h2 {
         left:30px;
         visibility: hidden;
 
@@ -30,21 +30,21 @@
         }
       }
     }
+  }
 
-    &.background {
-      &--purple {
-        background-color:$purple;
-        color:$white;
-      }
+  .background {
+    &--purple {
+      background-color:$purple;
+      color:$white;
+    }
 
-      &--green {
-        background-color:$green;
-        color:$white;
-      }
+    &--green {
+      background-color:$green;
+      color:$white;
     }
   }
 
-  h1 {
+  .h1 {
     position:absolute;
     color: #333333;
     opacity:0.15;
@@ -54,7 +54,7 @@
     right:281px;
   }
 
-  h2 {
+  .h2 {
     position:absolute;
     top:50%;
     transform:translateY(-50%);

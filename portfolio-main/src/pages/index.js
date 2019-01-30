@@ -11,24 +11,21 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className="home-splash">
       <div>
-        <h1>Harry Ray</h1>
-        <h2>Digital</h2>
+        <h1 className="h1">Harry Ray</h1>
+        <h2 className="h2">Digital</h2>
       </div>
       <div class="background--green">
-        <h2 className="loopVisibility visible">Doing</h2>
-        <h2 className="loopVisibility">Daring</h2>
-        <h2 className="loopVisibility">Development</h2>
+        <h2 className="h2 loopVisibility visible">Doing</h2>
+        <h2 className="h2 loopVisibility">Daring</h2>
+        <h2 className="h2 loopVisibility">Development</h2>
       </div>
     </div>
     <div className="work-splash">
       <div>
-        <h1>Harry Ray</h1>
-        <h2>Digital</h2>
       </div>
       <div class="background--purple">
-        <h2 className="loopVisibility visible">Doing</h2>
-        <h2 className="loopVisibility">Daring</h2>
-        <h2 className="loopVisibility">Development</h2>
+        <p className="h2">Hell</p>
+        <p className="h2">Yeah!</p>
       </div>
     </div>
     <div className="contact-splash">
