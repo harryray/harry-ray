@@ -1,6 +1,6 @@
 @import "../mixins/colours.scss";
 
-.home-splash {
+.home-splash, .work-splash, .contact-splash {
   position:relative;
   height:75vh;
   width:100vw;
@@ -20,8 +20,6 @@
     }
     &:nth-of-type(2) {
       right:0;
-      background-color:$green;
-      color:$white;
 
       h2 {
         left:30px;
@@ -30,6 +28,18 @@
         &.visible {
           visibility: visible;
         }
+      }
+    }
+
+    &.background {
+      &--purple {
+        background-color:$purple;
+        color:$white;
+      }
+
+      &--green {
+        background-color:$green;
+        color:$white;
       }
     }
   }

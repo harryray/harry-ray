@@ -41,3 +41,33 @@ a {
     display:block;
   }
 }
+
+header {
+  background-color:$black;
+  color:$white;
+  display:flex;
+  margin:0;
+  padding:15px 30px;
+  position:fixed;
+  width:50vw;
+  justify-content: center;
+  align-items:center;
+  box-sizing:border-box;
+  z-index:10;
+
+  &.scrolled {
+    background-color:transparentize($black, 0.7);
+  }
+
+  a {
+    padding:0;
+    color:$white;
+  }
+
+  div {
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+}

@@ -14,13 +14,25 @@ const IndexPage = () => (
         <h1>Harry Ray</h1>
         <h2>Digital</h2>
       </div>
-      <div>
+      <div class="background--green">
         <h2 className="loopVisibility visible">Doing</h2>
         <h2 className="loopVisibility">Daring</h2>
         <h2 className="loopVisibility">Development</h2>
       </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div className="work-splash">
+      <div>
+        <h1>Harry Ray</h1>
+        <h2>Digital</h2>
+      </div>
+      <div class="background--purple">
+        <h2 className="loopVisibility visible">Doing</h2>
+        <h2 className="loopVisibility">Daring</h2>
+        <h2 className="loopVisibility">Development</h2>
+      </div>
+    </div>
+    <div className="contact-splash">
+    </div>
   </Layout>
 )
 
