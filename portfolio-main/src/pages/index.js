@@ -10,11 +10,11 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className="home-splash">
-      <div>
+      <div className="home-splash_intro">
         <h1 className="h1">Harry Ray</h1>
         <h2 className="h2">Digital</h2>
       </div>
-      <div class="background--green">
+      <div class="background--green home-splash_looped">
         <h2 className="h2 loopVisibility visible">Doing</h2>
         <h2 className="h2 loopVisibility">Daring</h2>
         <h2 className="h2 loopVisibility">Development</h2>
@@ -23,9 +23,9 @@ const IndexPage = () => (
     <div className="work-splash">
       <div>
       </div>
-      <div class="background--purple">
-        <p className="h2">Hell</p>
-        <p className="h2">Yeah!</p>
+      <div class="background--purple work-splash_big-text-container">
+        <p className="work-splash_big-text">Hell</p>
+        <p className="work-splash_big-text">Yeah.</p>
       </div>
     </div>
     <div className="contact-splash">
@@ -49,6 +49,6 @@ function headingSwitchout() {
 }
 setTimeout(function() {
   headingSwitchout()
-}, 500)
+}, 100)
 
 export default IndexPage

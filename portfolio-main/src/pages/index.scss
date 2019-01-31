@@ -23,11 +23,6 @@
 
       .h2 {
         left:30px;
-        visibility: hidden;
-
-        &.visible {
-          visibility: visible;
-        }
       }
     }
   }
@@ -61,5 +56,39 @@
     font-weight:bold;
     font-size:6.66em;
     margin:0;
+  }
+}
+
+.home-splash {
+  &_looped {
+    .loopVisibility {
+      visibility: hidden;
+    }
+
+    .visible {
+      visibility: visible;
+    }
+  }
+
+  .video {
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      z-index:1;
+  }
+}
+
+.work-splash {
+  &_big-text-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  &_big-text {
+    font-size: 15vw;
+    margin: 0;
+    font-weight: bolder;
+    line-height: 1em;
   }
 }
