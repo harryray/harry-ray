@@ -1,5 +1,6 @@
 ---
-layout: /_layouts/minimal--d
+layout: default
+title: Harry Ray - Jekyll
 ---
 Harry Ray - Jekyll Testing
 ======
