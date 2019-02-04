@@ -1,5 +1,5 @@
 ---
 include: ./_config.yml
 ---
-Harry Ray - Jekyll Testing ({% date: "%N" %})
+Harry Ray - Jekyll Testing ({{ "now" | date: "%s" }})
 ======
