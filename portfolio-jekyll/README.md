@@ -1,2 +1,5 @@
-Harry Ray - Jekyll Testing ({{ "now" | date: "%s" }})
+---
+layout: primer--d
+---
+Harry Ray - Jekyll Testing
 ======
