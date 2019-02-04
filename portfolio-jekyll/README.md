@@ -1,5 +1,5 @@
 ---
-layout: primer--d
+layout: ../minimal--d
 ---
 Harry Ray - Jekyll Testing
 ======
