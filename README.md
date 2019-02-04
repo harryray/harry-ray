@@ -1,6 +1,3 @@
----
-layout: minimal--d
----
 Harry Ray - Portfolio
 ======
 
