@@ -5,7 +5,7 @@ There's most likely going to be a range of sites and languages actually in here,
 
 This hub is built with Jekyll and hosted on Github pages, using the standard Jekyll 'Minimal' theme. For a bit of a deeper dive into Jekyll and what it can do, please check the [`portfolio-jekyll`](https://priceless-neumann-f7cdcd.netlify.com/) section.
 
-## `portfolio-gatsby`
+## [`portfolio-gatsby`](https://eloquent-dubinsky-2dfdf3.netlify.com/)
 
 This is the Gatsby portion of my portfolio, containing a homepage, contact info and a basic personal site. Built with Gatsby and deployed through Netlify.
 
